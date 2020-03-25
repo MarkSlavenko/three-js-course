@@ -1,14 +1,13 @@
 import * as THREE from "three";
 
-function render3D() {
-	var scene3d = document.getElementById("models");
+function render3D(refForRender) {
 	var WIDTH = window.innerWidth*0.9;
 	var HEIGHT = window.innerHeight*0.85;
 
 	var renderer = new THREE.WebGLRenderer({antialias:true, alpha: true});
 	renderer.setSize(WIDTH, HEIGHT);
 	renderer.setClearColor(0x2d3436, 0);
-	scene3d.appendChild(renderer.domElement);
+	refForRender.appendChild( renderer.domElement );
 
 	var scene = new THREE.Scene();
 

@@ -1,0 +1,136 @@
+/* The Modal (background) */
+.modal {
+    display: block;
+    transition: all 2s linear;
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-size: 0.9em;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+    border: 1px solid #888;
+    width: 80%;
+    overflow-y: scroll;
+    height: 600px;
+    border-radius: 15px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+    background-color: rgba(137, 137, 137, 0.0);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#style-2::-webkit-scrollbar
+{
+    width: 15px;
+    background-color: rgba(137, 137, 137, 0.2);
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+    background-color: rgba(137, 137, 137, 0.35);
+    /*border: 2px solid #555555;*/
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.for-close {
+    height: 30px;
+}
+
+.modal-content span {
+    font-size: 2em;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 6;
+}
+
+.modal-content span i {
+    color: white;
+    border-radius: 40px;
+    padding: 7px 12px 7px 12px;
+    background-color: rgba(52, 58, 64, 0.5);
+    margin-top: -10px;
+}
+
+
+.modal-content span i:hover ,
+.modal-content span i:focus {
+    color: red !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content img {
+    height: 20.875rem;
+    width:100%;
+}
+
+.about-button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #2d3436;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: #2d3436;
+    box-shadow: 0 8px 15px rgba(0,0,0,.03);
+    transition: background-color 0.3s ease;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-button:hover {
+    background: none;
+    color: black !important;
+}
+
+
+@media (max-width: 768px) {
+
+    .modal-content img {
+        height: 19.875rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .modal-content {
+        width: 100%
+    }
+
+
+    .modal-content img {
+        height: 13.875rem;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
