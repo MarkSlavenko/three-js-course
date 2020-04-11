@@ -2,21 +2,31 @@ import React, { Component } from 'react';
 import './App.css';
 import render3D from './3dmodels/lab1.js';
 import LabInfo from './Components/LabInfo';
+import Slider from './Components/Slider';
 
 class App extends Component {
 
     constructor(props) {
         super(props);
         this.state = {LabInfoOn: false,
-        CurrentLab: 1
+        currentLab: 1,
+            disabled: false,
+            labText: null,
         };
 
-        this.refForThreeJS = React.createRef();
+    }
+
+    componentWillMount() {
+        let labTextFile =  require('./Labs/lab' + this.state.currentLab + '.md');
+
+        fetch(labTextFile).then((response) => response.text()).then((text) => {
+            this.setState({ labText: text })
+        })
     }
 
 
     componentDidMount() {
-        render3D(this.refForThreeJS.current);
+        render3D(this.refForThreeJS);
     }
 
     hideLabInfo = () => {
@@ -25,29 +35,50 @@ class App extends Component {
         }));
     }
 
-    nextLab = () => {
+    currentLabTextUpdate = () => {
+        let labTextFile =  require('./Labs/lab' + this.state.currentLab + '.md');
+        fetch(labTextFile).then((response) => response.text()).then((text) => {
+            this.setState({ labText: text })
+        })
+    }
+
+
+    currentUpdate = (current) => {
         this.setState(state => ({
-            CurrentLab: state.CurrentLab + 1
+            currentLab: current + 1,
         }));
+        setTimeout(() => this.currentLabTextUpdate(), 500);
+    }
+
+    nextLab = () => {
+        this.child.next();
+        this.setState(state => ({
+            disabled: true
+        }));
+        setTimeout(() => {  this.setState(state => ({
+            disabled: false,
+        }));}, 500);
     }
 
     prevLab = () => {
-        if (this.state.CurrentLab > 1)
+        this.child.previous();
         this.setState(state => ({
-            CurrentLab: state.CurrentLab - 1
+            disabled: true,
         }));
+
+        setTimeout(() => {  this.setState(state => ({
+            disabled: false,
+        }));}, 500);
     }
+
 
   render() {
       return (
     <div>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-12 text-center">
-                    <a className="lab-btn lab-btn-active">Lab 1</a>
-                    <a className="lab-btn ">Lab 2</a>
-                </div>
-                <div className="col-12 text-center models" ref={this.refForThreeJS}></div>
+            <Slider currentUpdate={this.currentUpdate} ref={instance => { this.child = instance; }}/>
+                <div className="col-12 text-center models" ref={ref => this.refForThreeJS = ref}></div>
                 <div className="col-12 text-center about fixed-bottom">
                     {!this.state.LabInfoOn ? <a onClick={this.hideLabInfo} className="about-btn">Подробнее</a> : null}
                 </div>
@@ -56,12 +87,13 @@ class App extends Component {
 
         {this.state.LabInfoOn ? <LabInfo
             Hide={this.hideLabInfo}
-            Lab={this.state.CurrentLab}
+            Lab={this.state.currentLab}
+            Text={this.state.labText}
         /> : null}
 
 
-        <button onClick={this.prevLab} className="prev btn"><i className="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i></button>
-      <button onClick={this.nextLab} className="next btn"><i className="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></button>
+        <button onClick={this.prevLab} disabled={this.state.disabled} className="prev btn"><i className="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i></button>
+      <button onClick={this.nextLab} disabled={this.state.disabled} className="next btn"><i className="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></button>
     </div>
   )};
 }

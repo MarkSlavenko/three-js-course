@@ -1,0 +1,51 @@
+.lab-btn {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 150px !important;
+    height: 45px !important;
+    line-height: 47px;
+    border-radius: 45px;
+    margin: 10px 20px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: transform 0.4s ease;
+}
+
+.slick-list {
+    height: 100px;
+    overflow: visible !important;
+}
+
+
+.main-for-slider {
+    overflow: hidden;
+}
+
+.slick-current .lab-btn {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+    /*box-shadow: 0 15px 20px rgba(46,229,157,.4);*/
+    color: #524f4e;
+    /*transform: translateY(-7px);*/
+}
+
+.lab-btn:hover {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+    box-shadow: 0 15px 20px rgba(166,193,238,.4);
+    color: white !important;
+    transform: translateY(-7px);
+}
+
+.slick-current .lab-btn:hover {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+    box-shadow: none;
+    color: #524f4e !important;
+    transform: none;
+}

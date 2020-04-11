@@ -8,7 +8,10 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
     "react-scripts": "3.4.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
     "three": "^0.114.0"
   },
   "scripts": {

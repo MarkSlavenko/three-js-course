@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import ReactMarkdown from 'react-markdown/with-html'
 
 function LabInfo(props) {
 
@@ -12,11 +13,10 @@ function LabInfo(props) {
                         <a onClick={props.Hide}><i className="fa fa-times" aria-hidden="true"></i></a>
                     </span>
                 </div>
-                    <div className="col-12 text-center">
-                        <h1>Лабораторная работа № {props.Lab}</h1>
-                        <h2></h2>
-                        {props.text}
-                        <button className="about-button">Скачать пример</button>
+                    <div className="col-12">
+                        <div className="text-center"><h1>Лабораторная работа № {props.Lab}</h1></div>
+                        {<ReactMarkdown source={props.Text} escapeHtml={false}/>}
+                        <div className="text-center"><button className="about-button">Скачать пример</button></div>
                     </div>
                 </div>
             </div>
