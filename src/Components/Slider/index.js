@@ -8,8 +8,6 @@ import 'slick-carousel/slick/slick.css';
 export default class  Slider  extends Component{
     constructor(props) {
         super(props);
-        this.next = this.next.bind(this);
-        this.previous = this.previous.bind(this);
     }
 
 

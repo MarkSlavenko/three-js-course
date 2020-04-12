@@ -50,6 +50,9 @@ class App extends Component {
         this.setState(state => ({
             disabled: true
         }));
+
+        this.childModels.moveCamera(550, 0, 0);
+
         setTimeout(() => {  this.setState(state => ({
             disabled: false,
         }));}, 500);
@@ -60,6 +63,8 @@ class App extends Component {
         this.setState(state => ({
             disabled: true,
         }));
+
+        this.childModels.moveCamera(0, 0, 350);
 
         setTimeout(() => {  this.setState(state => ({
             disabled: false,
@@ -73,7 +78,7 @@ class App extends Component {
         <div className="container-fluid">
             <div className="row">
             <Slider currentUpdate={this.currentUpdate} ref={instance => { this.child = instance; }}/>
-                <Models/>
+                <Models ref={instance => { this.childModels = instance; }}/>
                 <div className="col-12 text-center about fixed-bottom">
                     {!this.state.LabInfoOn ? <a onClick={this.hideLabInfo} className="about-btn">Подробнее</a> : null}
                 </div>
