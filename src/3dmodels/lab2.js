@@ -7,11 +7,11 @@ const loader = new THREE.TextureLoader();
 
 const cube_material = [
 
-    new THREE.MeshBasicMaterial({map: loader.load('./images/1.png')}),
+    new THREE.MeshBasicMaterial({map: loader.load('../../public/images/1.png')}),
 
-    new THREE.MeshBasicMaterial({map: loader.load('./images/2.png')}),
+    new THREE.MeshBasicMaterial({map: loader.load('../../public/images/2.png')}),
 
-    new THREE.MeshBasicMaterial({map: loader.load('./images/3.png')}),
+    new THREE.MeshBasicMaterial({map: loader.load('../../public/images/3.png')}),
 
     new THREE.MeshBasicMaterial({map: loader.load('http://zabor.zp.ua/www/sites/default/files/images/4_tips_polzovatelskiy_opyt.jpg')}),
 

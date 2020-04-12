@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d071eb0-1343-4bcb-ab48-eeb1ab822139" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/images/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/3dmodels/lab2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -32,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/3dmodels/lab2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+            <state relative-caret-position="442">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -145,31 +155,7 @@
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="3dmodels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="LabInfo" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +180,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\Дипломная Реакт\course\public" />
       <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -244,12 +231,12 @@
       <workItem from="1585132193963" duration="7507000" />
       <workItem from="1586345397754" duration="6322000" />
       <workItem from="1586592506516" duration="22826000" />
-      <workItem from="1586692989312" duration="12793000" />
+      <workItem from="1586692989312" duration="13096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60025000" />
+    <option name="totallyTimeSpent" value="60328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -517,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -526,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/3dmodels/lab2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state relative-caret-position="442">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
