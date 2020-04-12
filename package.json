@@ -2,7 +2,7 @@
   "name": "course",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://markslavenko.github.io/three-js-course/",
+  "homepage": "http://markslavenko.github.io/three-js-course/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
