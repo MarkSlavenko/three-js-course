@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/three-js-course/static/css/main.29de6258.chunk.css",
-    "main.js": "/three-js-course/static/js/main.c4cb2f9e.chunk.js",
-    "main.js.map": "/three-js-course/static/js/main.c4cb2f9e.chunk.js.map",
+    "main.js": "/three-js-course/static/js/main.c5f44907.chunk.js",
+    "main.js.map": "/three-js-course/static/js/main.c5f44907.chunk.js.map",
     "runtime-main.js": "/three-js-course/static/js/runtime-main.913c9d6d.js",
     "runtime-main.js.map": "/three-js-course/static/js/runtime-main.913c9d6d.js.map",
     "static/css/2.a3eed1a2.chunk.css": "/three-js-course/static/css/2.a3eed1a2.chunk.css",
     "static/js/2.10b7f4fe.chunk.js": "/three-js-course/static/js/2.10b7f4fe.chunk.js",
     "static/js/2.10b7f4fe.chunk.js.map": "/three-js-course/static/js/2.10b7f4fe.chunk.js.map",
     "index.html": "/three-js-course/index.html",
-    "precache-manifest.18221b54030edbef7419725c5e4b79fb.js": "/three-js-course/precache-manifest.18221b54030edbef7419725c5e4b79fb.js",
+    "precache-manifest.9326b65cdb4065a0ae33231c9e3cbcd3.js": "/three-js-course/precache-manifest.9326b65cdb4065a0ae33231c9e3cbcd3.js",
     "service-worker.js": "/three-js-course/service-worker.js",
     "static/css/2.a3eed1a2.chunk.css.map": "/three-js-course/static/css/2.a3eed1a2.chunk.css.map",
     "static/css/main.29de6258.chunk.css.map": "/three-js-course/static/css/main.29de6258.chunk.css.map",
@@ -31,6 +31,6 @@
     "static/css/2.a3eed1a2.chunk.css",
     "static/js/2.10b7f4fe.chunk.js",
     "static/css/main.29de6258.chunk.css",
-    "static/js/main.c4cb2f9e.chunk.js"
+    "static/js/main.c5f44907.chunk.js"
   ]
 }

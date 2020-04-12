@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6552e957a078da8e70fe4f29c5db2a5b",
+    "revision": "d7f55975a7051a56bc815114405b0ec3",
     "url": "/three-js-course/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/three-js-course/static/css/2.a3eed1a2.chunk.css"
   },
   {
-    "revision": "938ca0720fcbcbd1be6b",
+    "revision": "ce8c105a681b1f5b66f1",
     "url": "/three-js-course/static/css/main.29de6258.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/three-js-course/static/js/2.10b7f4fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "938ca0720fcbcbd1be6b",
-    "url": "/three-js-course/static/js/main.c4cb2f9e.chunk.js"
+    "revision": "ce8c105a681b1f5b66f1",
+    "url": "/three-js-course/static/js/main.c5f44907.chunk.js"
   },
   {
     "revision": "74555beb7f8de83457a5",
