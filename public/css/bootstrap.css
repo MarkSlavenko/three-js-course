@@ -184,7 +184,7 @@ samp {
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 figure {
@@ -215,6 +215,7 @@ caption {
 
 th {
   text-align: inherit;
+  color: black !important;
 }
 
 label {
@@ -504,6 +505,9 @@ code {
   font-size: 87.5%;
   color: #e83e8c;
   word-wrap: break-word;
+  background-color: #F1F1F1;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 a > code {
@@ -528,12 +532,16 @@ pre {
   display: block;
   font-size: 87.5%;
   color: #212529;
+  background-color: #FBFBFB;
+  padding: 15px 10px;
 }
 
 pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
+  background-color: #F1F1F1;
+  /*color: #e83e8c;*/
 }
 
 .pre-scrollable {

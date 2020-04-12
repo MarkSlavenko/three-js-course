@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import render3D from './3dmodels/lab1.js';
 import LabInfo from './Components/LabInfo';
 import Slider from './Components/Slider';
+import Models from './Components/Models'
 
 class App extends Component {
 
@@ -22,11 +22,6 @@ class App extends Component {
         fetch(labTextFile).then((response) => response.text()).then((text) => {
             this.setState({ labText: text })
         })
-    }
-
-
-    componentDidMount() {
-        render3D(this.refForThreeJS);
     }
 
     hideLabInfo = () => {
@@ -78,7 +73,7 @@ class App extends Component {
         <div className="container-fluid">
             <div className="row">
             <Slider currentUpdate={this.currentUpdate} ref={instance => { this.child = instance; }}/>
-                <div className="col-12 text-center models" ref={ref => this.refForThreeJS = ref}></div>
+                <Models/>
                 <div className="col-12 text-center about fixed-bottom">
                     {!this.state.LabInfoOn ? <a onClick={this.hideLabInfo} className="about-btn">Подробнее</a> : null}
                 </div>

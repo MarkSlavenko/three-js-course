@@ -36,7 +36,7 @@ export default class  Slider  extends Component{
 
         return (
             <div className="col-12 main-for-slider text-center d-flex justify-content-center">
-                <div className="col-3 px-3">
+                <div className="col-lg-3 col-4 px-3">
                     <SlickSlider ref={c => (this.slider = c)} {...settings}>
                         <div className="lab-btn">Lab 1</div>
                         <div className="lab-btn">Lab 2</div>
