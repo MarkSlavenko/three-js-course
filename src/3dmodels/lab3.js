@@ -36,7 +36,8 @@ sphere5.position.set(50,156,0);
 
 snowman.add(sphere5);
 
-material = new THREE.MeshLambertMaterial ({color: 0xFFBB00});
+
+material = new THREE.MeshBasicMaterial ({color: 'orange'});
 geometry = new THREE.CylinderGeometry(1,7,40,8);
 const nose =  new THREE.Mesh(geometry,material);
 nose.position.set(0,202,45);
@@ -44,7 +45,7 @@ nose.rotation.x=Math.PI/2;
 
 snowman.add(nose);
 
-material = new THREE.MeshLambertMaterial ({color: 0x8A2BE2});
+material = new THREE.MeshBasicMaterial ({color: 0x8A2BE2});
 geometry = new THREE.CylinderGeometry(24,34,60,18);
 const bucket =  new THREE.Mesh(geometry,material);
 bucket.position.set(0,249,-12);

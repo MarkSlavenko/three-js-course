@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import LabInfo from './Components/LabInfo';
 import Slider from './Components/Slider';
-import Models from './Components/Models'
+import Models from './Components/Models';
+import modelsCords from './Constans/ModelsCords';
 
 class App extends Component {
 
@@ -39,9 +40,12 @@ class App extends Component {
 
 
     currentUpdate = (current) => {
+        this.childModels.moveCamera(...modelsCords[current]);
+
         this.setState(state => ({
             currentLab: current + 1,
         }));
+
         setTimeout(() => this.currentLabTextUpdate(), 500);
     }
 
@@ -50,8 +54,6 @@ class App extends Component {
         this.setState(state => ({
             disabled: true
         }));
-
-        this.childModels.moveCamera(550, 0, 0);
 
         setTimeout(() => {  this.setState(state => ({
             disabled: false,
@@ -63,8 +65,6 @@ class App extends Component {
         this.setState(state => ({
             disabled: true,
         }));
-
-        this.childModels.moveCamera(0, 0, 350);
 
         setTimeout(() => {  this.setState(state => ({
             disabled: false,

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.css';
 import * as THREE from "three";
+
 import {cube} from '../../3dmodels/lab1';
 import {cube_second} from '../../3dmodels/lab2';
 import {snowman} from "../../3dmodels/lab3";

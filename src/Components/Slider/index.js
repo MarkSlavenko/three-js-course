@@ -29,7 +29,7 @@ export default class  Slider  extends Component{
             arrows: false,
             centerMode: true,
             swipeToSlide: true,
-            afterChange: current => this.props.currentUpdate(current)
+            beforeChange: (current, next) => this.props.currentUpdate(next)
         };
 
         return (

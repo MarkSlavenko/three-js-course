@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d071eb0-1343-4bcb-ab48-eeb1ab822139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Constans/ModelsCords.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/images/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3dmodels/lab1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3dmodels/lab2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3dmodels/lab3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Models/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Models/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="20" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -41,11 +32,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Slider/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Constans/ModelsCords.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3dmodels/lab3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="59" column="101" selection-start-line="59" selection-start-column="101" selection-end-line="59" selection-end-column="101" />
+            <state relative-caret-position="187">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -122,16 +152,17 @@
         <option value="$PROJECT_DIR$/src/Components/Models/style.css" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab1.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab2.js" />
+        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab3.js" />
         <option value="$PROJECT_DIR$/src/Components/Slider/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
+        <option value="$PROJECT_DIR$/src/Constans/ModelsCords.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
-    <option name="y" value="-24" />
+    <option name="x" value="11" />
+    <option name="y" value="-25" />
     <option name="width" value="1440" />
     <option name="height" value="785" />
   </component>
@@ -252,12 +283,13 @@
       <workItem from="1585132193963" duration="7507000" />
       <workItem from="1586345397754" duration="6322000" />
       <workItem from="1586592506516" duration="22826000" />
-      <workItem from="1586692989312" duration="23763000" />
+      <workItem from="1586692989312" duration="23970000" />
+      <workItem from="1586770787631" duration="4208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70995000" />
+    <option name="totallyTimeSpent" value="75410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -265,10 +297,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.50208336" side_tool="true" weight="0.18374091" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
       <window_info id="Structure" order="3" sideWeight="0.50139666" side_tool="true" weight="0.18374091" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info anchor="bottom" x="163" y="163" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
+      <window_info active="true" anchor="bottom" x="163" y="163" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -288,13 +320,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/3dmodels/three.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/three.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -324,13 +350,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -453,17 +472,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Labs/lab1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="80" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="80" />
+        </state>
+      </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor>
             <caret column="30" selection-start-column="30" selection-end-column="30" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="41" column="80" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -512,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/3dmodels/lab2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -526,33 +538,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="247">
+          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Constans/ModelsCords.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="59" column="101" selection-start-line="59" selection-start-column="101" selection-end-line="59" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
