@@ -1,4 +1,4 @@
-<h1 align="center">Первая тема</h1>
+<h1 align="center">Вступление</h1>
 Changes are automatically rendered as you type.
 
 ## Table of Contents

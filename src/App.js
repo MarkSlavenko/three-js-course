@@ -9,8 +9,9 @@ class App extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {LabInfoOn: false,
-        currentLab: 1,
+        this.state = {
+            LabInfoOn: false,
+            currentLab: 1,
             disabled: false,
             labText: null,
         };

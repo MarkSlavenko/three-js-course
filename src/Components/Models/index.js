@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './style.css';
 import * as THREE from "three";
+import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
 import {cube} from '../../3dmodels/lab1';
 import {cube_second} from '../../3dmodels/lab2';
 import {snowman} from "../../3dmodels/lab3";
+import {bishop} from "../../3dmodels/lab4";
+
+import {sphere} from "../../3dmodels/lab6";
+// import {NA} from "../../3dmodels/NA";
 
 class Models extends Component {
 
@@ -32,12 +37,20 @@ class Models extends Component {
         this.camera = new THREE.PerspectiveCamera(70, WIDTH/HEIGHT);
         this.camera.position.z = 350;
         this.scene.add(this.camera);
+        const ambientLight = new THREE.AmbientLight(0xffffff, 1.0);
+        this.scene.add(ambientLight);
     };
 
     addModels = () => {
         this.scene.add(cube);
         this.scene.add(cube_second);
         this.scene.add(snowman);
+        this.scene.add(bishop);
+
+        this.scene.add(sphere);
+
+        // this.scene.add(NA);
+
     };
 
      animate = () => {
@@ -48,6 +61,8 @@ class Models extends Component {
         cube_second.rotation.x += 0.0075;
         cube_second.rotation.y += 0.0075;
         snowman.rotation.y+=0.01;
+        sphere.rotation.x += 0.0025;
+        sphere.rotation.y += 0.0025;
         this.renderer.render(this.scene, this.camera);
     }
 

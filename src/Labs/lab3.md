@@ -1,4 +1,4 @@
-<h1 align="center">Третья тема</h1>
+<h1 align="center">Составные объекты</h1>
 Changes are automatically rendered as you type.
 
 ## Table of Contents
