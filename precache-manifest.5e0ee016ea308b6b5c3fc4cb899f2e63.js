@@ -1,59 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70db12f523f136bb8ef255cceb9c9f83",
+    "revision": "f5033af1750977564dc192199e48eff1",
     "url": "/three-js-course/index.html"
   },
   {
-    "revision": "ca3d72a767dea79458d4",
+    "revision": "17c13aea356a5f78d917",
     "url": "/three-js-course/static/css/2.a3eed1a2.chunk.css"
   },
   {
-    "revision": "bbf7a6bcfa4399bd5931",
-    "url": "/three-js-course/static/css/main.29de6258.chunk.css"
+    "revision": "b6082f6862fc7bf5983a",
+    "url": "/three-js-course/static/css/main.1e2bcf2b.chunk.css"
   },
   {
-    "revision": "ca3d72a767dea79458d4",
-    "url": "/three-js-course/static/js/2.10b7f4fe.chunk.js"
+    "revision": "17c13aea356a5f78d917",
+    "url": "/three-js-course/static/js/2.db119000.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/three-js-course/static/js/2.10b7f4fe.chunk.js.LICENSE.txt"
+    "url": "/three-js-course/static/js/2.db119000.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bbf7a6bcfa4399bd5931",
-    "url": "/three-js-course/static/js/main.cfff87fa.chunk.js"
+    "revision": "b6082f6862fc7bf5983a",
+    "url": "/three-js-course/static/js/main.11652f99.chunk.js"
   },
   {
     "revision": "74555beb7f8de83457a5",
     "url": "/three-js-course/static/js/runtime-main.913c9d6d.js"
   },
   {
-    "revision": "981a6ac07de4522c8347933d364207fd",
-    "url": "/three-js-course/static/media/lab1.981a6ac0.md"
+    "revision": "6c5bb41e7cf0c39f9129d5b9c45108f5",
+    "url": "/three-js-course/static/media/lab1.6c5bb41e.md"
   },
   {
     "revision": "a9c6b86f147c9c99cd1387bcdbe4a263",
     "url": "/three-js-course/static/media/lab10.a9c6b86f.md"
   },
   {
-    "revision": "23073f7749b30561c64642f2f1ed05de",
-    "url": "/three-js-course/static/media/lab2.23073f77.md"
+    "revision": "2293dc9273989cf764e0b01612c27304",
+    "url": "/three-js-course/static/media/lab2.2293dc92.md"
   },
   {
-    "revision": "de684ce480ea48327dd967be6e745ca9",
-    "url": "/three-js-course/static/media/lab3.de684ce4.md"
+    "revision": "78432218d33963a76c3591db7e564022",
+    "url": "/three-js-course/static/media/lab3.78432218.md"
   },
   {
-    "revision": "8bf0e1db311bc8da20e4476a83a36228",
-    "url": "/three-js-course/static/media/lab4.8bf0e1db.md"
+    "revision": "75d7ff764a2796102a7f6df337ec0a93",
+    "url": "/three-js-course/static/media/lab4.75d7ff76.md"
   },
   {
-    "revision": "4de427a2cc249fd1bb97aabc88959230",
-    "url": "/three-js-course/static/media/lab5.4de427a2.md"
+    "revision": "e1125ddcc25c65ab08bb151f1402d24e",
+    "url": "/three-js-course/static/media/lab5.e1125ddc.md"
   },
   {
-    "revision": "3a36942483e82a0f1dcb5996d1b2dfc3",
-    "url": "/three-js-course/static/media/lab6.3a369424.md"
+    "revision": "63a995fea3ac3d024bfb222b643eebbe",
+    "url": "/three-js-course/static/media/lab6.63a995fe.md"
   },
   {
     "revision": "7eb51da67e20246e46ec4be5708a0f86",
