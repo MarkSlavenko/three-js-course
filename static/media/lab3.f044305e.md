@@ -1,4 +1,4 @@
-<h1 align="center">Работа с текстурами</h1>
+<h1 align="center">Складні об'єкти</h1>
 Changes are automatically rendered as you type.
 
 ## Table of Contents

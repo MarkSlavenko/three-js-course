@@ -1,4 +1,4 @@
-<h1 align="center">Геометрические фигуры</h1>
+<h1 align="center">Векторна побудова об'єктів</h1>
 Changes are automatically rendered as you type.
 
 ## Table of Contents
