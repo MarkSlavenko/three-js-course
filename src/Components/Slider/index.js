@@ -5,11 +5,10 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
 
-export default class  Slider  extends Component{
+export default class Slider extends Component{
     constructor(props) {
         super(props);
     }
-
 
     next = () => {
         this.slider.slickNext();
@@ -19,6 +18,12 @@ export default class  Slider  extends Component{
     }
 
     render () {
+        let Labs = [];
+        for (let i = 0; i < this.props.numberOfLabs; i++) {
+            Labs.push(<div className="lab-btn">Lab {i+1}</div>)
+        }
+
+
         const settings = {
             focusOnSelect: true,
             dots: false,
@@ -36,17 +41,7 @@ export default class  Slider  extends Component{
             <div className="col-12 main-for-slider text-center d-flex justify-content-center">
                 <div className="col-lg-3 col-4 px-3">
                     <SlickSlider ref={c => (this.slider = c)} {...settings}>
-                        <div className="lab-btn">Lab 1</div>
-                        <div className="lab-btn">Lab 2</div>
-                        <div className="lab-btn">Lab 3</div>
-                        <div className="lab-btn">Lab 4</div>
-                        <div className="lab-btn">Lab 5</div>
-                        <div className="lab-btn">Lab 6</div>
-                        <div className="lab-btn">Lab 7</div>
-                        <div className="lab-btn">Lab 8</div>
-                        <div className="lab-btn">Lab 9</div>
-                        <div className="lab-btn">Lab 10</div>
-
+                        {Labs}
                     </SlickSlider>
                 </div>
             </div>

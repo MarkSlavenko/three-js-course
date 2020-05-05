@@ -1,4 +1,4 @@
-const ModelCords = [
+const modelCords = [
     [0, -10, 350],         // lab1
     [550, 10, 0],         // 2
     [1610, 40, -650],    // 3
@@ -11,4 +11,6 @@ const ModelCords = [
     [2000, 2000, 2000]     // 10
 ];
 
-export default ModelCords;
+const numberOfLabs = 10;
+
+export {modelCords, numberOfLabs};

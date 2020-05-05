@@ -3,7 +3,7 @@ import './App.css';
 import LabInfo from './Components/LabInfo';
 import Slider from './Components/Slider';
 import Models from './Components/Models';
-import modelsCords from './Constans/ModelsCords';
+import {modelCords, numberOfLabs} from './Constans';
 
 class App extends Component {
 
@@ -41,7 +41,7 @@ class App extends Component {
 
 
     currentUpdate = (current) => {
-        this.childModels.moveCamera(...modelsCords[current]);
+        this.childModels.moveCamera(...modelCords[current]);
 
         this.setState(state => ({
             currentLab: current + 1,
@@ -78,10 +78,15 @@ class App extends Component {
     <div>
         <div className="container-fluid">
             <div className="row">
-            <Slider currentUpdate={this.currentUpdate} ref={instance => { this.child = instance; }}/>
+            <Slider
+                numberOfLabs = {numberOfLabs}
+                currentUpdate={this.currentUpdate}
+                ref={instance => { this.child = instance; }}
+            />
                 <Models ref={instance => { this.childModels = instance; }}/>
                 <div className="col-12 text-center about fixed-bottom">
-                    {!this.state.LabInfoOn ? <a onClick={this.hideLabInfo} className="about-btn">Подробнее</a> : null}
+                    {!this.state.LabInfoOn ? <a onClick={this.hideLabInfo} className="about-btn">Докладніше</a> : null}
+
                 </div>
             </div>
         </div>

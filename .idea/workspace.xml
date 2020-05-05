@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d071eb0-1343-4bcb-ab48-eeb1ab822139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/3dmodels/NA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3dmodels/lab3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LabInfo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LabInfo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constans/ModelsCords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constans/ModelsCords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab6.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LabInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LabInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constans/ModelsCords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constans/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,10 +22,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -42,20 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constans/ModelsCords.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/style.css">
+        <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="57" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -96,6 +99,10 @@
       <find>object</find>
       <find>color</find>
       <find>for-c</find>
+      <find>NumberOfLabs</find>
+      <find>modelsCords</find>
+      <find>cords</find>
+      <find>Labs</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -114,17 +121,13 @@
         <option value="$PROJECT_DIR$/src/Labs/lab8.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab9.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab10.md" />
-        <option value="$PROJECT_DIR$/src/Components/LabInfo/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/public/css/github-markdown.css" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/Components/Models/style.css" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab1.js" />
-        <option value="$PROJECT_DIR$/src/Components/Slider/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab4.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab3.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
@@ -138,13 +141,18 @@
         <option value="$PROJECT_DIR$/src/Labs/lab6.md" />
         <option value="$PROJECT_DIR$/src/Components/LabInfo/style.css" />
         <option value="$PROJECT_DIR$/src/3dmodels/NA.js" />
-        <option value="$PROJECT_DIR$/src/Constans/ModelsCords.js" />
         <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/LabInfo/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Components/Slider/index.js" />
+        <option value="$PROJECT_DIR$/src/Constans/ModelsCords.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Constans/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
+    <option name="x" value="10" />
     <option name="y" value="-25" />
     <option name="width" value="1440" />
     <option name="height" value="785" />
@@ -155,7 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,13 +179,14 @@
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="3dmodels" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="LabInfo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
@@ -191,12 +199,26 @@
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Slider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Constans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,12 +290,13 @@
       <workItem from="1586345397754" duration="6322000" />
       <workItem from="1586592506516" duration="22826000" />
       <workItem from="1586692989312" duration="23970000" />
-      <workItem from="1586770787631" duration="15863000" />
+      <workItem from="1586770787631" duration="16188000" />
+      <workItem from="1588672306410" duration="3365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87065000" />
+    <option name="totallyTimeSpent" value="90755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -281,10 +304,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.50208336" side_tool="true" weight="0.18374091" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
       <window_info id="Structure" order="3" sideWeight="0.50139666" side_tool="true" weight="0.18374091" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info anchor="bottom" x="163" y="163" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
+      <window_info active="true" anchor="bottom" x="163" y="163" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -408,44 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Models/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,27 +559,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="57" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constans/ModelsCords.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/style.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="57" selection-end-column="3" />
+        <state relative-caret-position="349">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
