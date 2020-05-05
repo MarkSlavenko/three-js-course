@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d071eb0-1343-4bcb-ab48-eeb1ab822139" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Labs/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LabInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LabInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constans/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constans/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs/lab1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs/lab2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs/lab3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs/lab4.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labs/lab5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab5.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,43 +27,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/src/Labs/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="1" selection-start-column="1" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="19" column="136" selection-start-line="19" selection-start-column="136" selection-end-line="19" selection-end-column="136" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="427">
+              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -69,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>define</find>
       <find>render</find>
       <find>height</find>
       <find>i</find>
@@ -97,10 +110,14 @@
       <find>modelsCords</find>
       <find>cords</find>
       <find>Labs</find>
+      <find>hideLabInfo</find>
+      <find>hideInfo</find>
+      <find>currentLabTextUpdate</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>const</replace>
+      <replace>hideInfo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,24 +141,25 @@
         <option value="$PROJECT_DIR$/src/3dmodels/lab1.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab4.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab3.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab2.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab6.js" />
+        <option value="$PROJECT_DIR$/src/Components/LabInfo/style.css" />
+        <option value="$PROJECT_DIR$/src/3dmodels/NA.js" />
+        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Constans/ModelsCords.js" />
         <option value="$PROJECT_DIR$/src/Labs/lab1.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab2.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab3.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab4.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab5.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab6.md" />
-        <option value="$PROJECT_DIR$/src/Components/LabInfo/style.css" />
-        <option value="$PROJECT_DIR$/src/3dmodels/NA.js" />
-        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/LabInfo/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Components/Slider/index.js" />
-        <option value="$PROJECT_DIR$/src/Constans/ModelsCords.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Constans/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/Slider/index.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Labs/about.md" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/LabInfo/index.js" />
       </list>
     </option>
   </component>
@@ -231,13 +249,13 @@
     <property name="ts.external.directory.path" value="D:\WebStorm\WebStorm 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
-      <recent name="D:\Учеба\Дипломная Реакт\course\src\Labs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
       <recent name="D:\Учеба\Дипломная Реакт\course\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
+      <recent name="D:\Учеба\Дипломная Реакт\course\src\Labs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,12 +303,12 @@
       <workItem from="1586592506516" duration="22826000" />
       <workItem from="1586692989312" duration="23970000" />
       <workItem from="1586770787631" duration="16188000" />
-      <workItem from="1588672306410" duration="4194000" />
+      <workItem from="1588672306410" duration="10153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91584000" />
+    <option name="totallyTimeSpent" value="97543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -298,10 +316,10 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" sideWeight="0.50208336" side_tool="true" weight="0.18374091" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49791667" visible="true" weight="0.16060807" />
       <window_info id="Structure" order="3" sideWeight="0.50139666" side_tool="true" weight="0.18374091" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info active="true" anchor="bottom" x="163" y="163" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
+      <window_info anchor="bottom" x="390" y="211" width="920" height="472" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.16759777" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -432,32 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Slider/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor>
-            <caret column="30" selection-start-column="30" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -468,60 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="38" selection-start-column="38" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/3dmodels/lab3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="36" selection-start-column="36" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab4.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="48" selection-start-column="48" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab5.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="40" selection-start-column="40" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs/lab6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="27" selection-start-column="27" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -560,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -580,13 +516,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="30" selection-start-column="30" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -597,20 +538,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="38" selection-start-column="38" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="34" selection-start-column="34" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="27" selection-start-column="27" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="37" selection-start-column="37" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/lab6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="27" selection-start-column="27" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Slider/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Labs/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="1" selection-start-column="1" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/LabInfo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="19" column="136" selection-start-line="19" selection-start-column="136" selection-end-line="19" selection-end-column="136" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

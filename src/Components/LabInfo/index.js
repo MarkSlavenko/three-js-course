@@ -15,9 +15,9 @@ function LabInfo(props) {
                     </span>
                 </div>
                     <div className="col-12 markdown-body">
-                        <div className="text-center"><h1>Лабораторна работа № {props.Lab}</h1></div>
+                        {props.Lab && <div className="text-center"><h1>Лабораторна работа № {props.Lab}</h1></div>}
                         {<ReactMarkdown source={props.Text} escapeHtml={false}/>}
-                        <div className="text-center"><button className="about-button">Скачати приклад</button></div>
+                        {props.Download && <div className="text-center"><button className="about-button">Скачати приклад</button></div>}
                     </div>
                 </div>
             </div>

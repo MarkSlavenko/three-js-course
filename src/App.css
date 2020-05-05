@@ -75,6 +75,21 @@ button:active {
   padding: 0px;
 }
 
-.about {
-  margin-bottom: 25px;
+.bottom-block {
+  margin-bottom: 5px;
+  z-index: -1;
+  font-size: 15px;
+}
+
+.about-block {
+  color: #ededed;
+}
+
+.about-block a {
+  color: #ededed;
+  text-decoration: underline;
+}
+
+.about-block a:hover {
+  text-decoration: none;
 }

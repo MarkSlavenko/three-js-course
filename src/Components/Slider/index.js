@@ -20,7 +20,7 @@ export default class Slider extends Component{
     render () {
         let Labs = [];
         for (let i = 0; i < this.props.numberOfLabs; i++) {
-            Labs.push(<div className="lab-btn">Lab {i+1}</div>)
+            Labs.push(<div key={i} className="lab-btn">Lab {i+1}</div>)
         }
 
 
