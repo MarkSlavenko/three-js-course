@@ -6,7 +6,7 @@ function LabInfo(props) {
 
     return (
 
-        <div className={"modal my-2"}>
+        <div className={"modal"}>
             <div id="style-2" className="modal-content container px-5">
                 <div className="row">
                 <div className="col-12 text-right for-close px-4">

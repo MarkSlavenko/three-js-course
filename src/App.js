@@ -21,6 +21,11 @@ class App extends Component {
 
     componentWillMount() {
         this.currentLabTextUpdate();
+
+        let req =  require('./Labs/about.md');
+        fetch(req).then((response) => response.text()).then((text) => {
+           this.aboutInfo = text;
+        })
     }
 
     hideInfo = (hidden) => { // Открыть/Скрыть PopUp с данными об лабораторной работе.
@@ -93,7 +98,7 @@ class App extends Component {
                         {!this.state.labInfo ? <a onClick={()=>this.hideInfo("lab")} className="about-btn">Докладніше</a> : null}
                     </div>
                     <div className="col-12 about-block">
-                        <a href="https://moodle.znu.edu.ua/" target="_blank">Moodle</a> ● Запорізький національний університет ● <a onClick={this.hideInfo}>Про автора</a>
+                        <a href="https://moodle.znu.edu.ua/" target="_blank">Moodle</a> ● Запорізький національний університет ● <a onClick={this.hideInfo}>Про курс</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +113,7 @@ class App extends Component {
 
         {this.state.aboutInfo ? <LabInfo
             Hide={this.hideInfo}
-            Text={"Kek"}
+            Text={this.aboutInfo}
         /> : null}
 
 
