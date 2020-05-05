@@ -19,20 +19,16 @@ class App extends Component {
     }
 
     componentWillMount() {
-        let labTextFile =  require('./Labs/lab' + this.state.currentLab + '.md');
-
-        fetch(labTextFile).then((response) => response.text()).then((text) => {
-            this.setState({ labText: text })
-        })
+        this.currentLabTextUpdate();
     }
 
-    hideLabInfo = () => {
+    hideLabInfo = () => { // Открыть/Скрыть PopUp с данными об лабораторной работе.
         this.setState(state => ({
             LabInfoOn: !state.LabInfoOn
         }));
     }
 
-    currentLabTextUpdate = () => {
+    currentLabTextUpdate = () => {  // Получение данных об лабораторной работе.
         let labTextFile =  require('./Labs/lab' + this.state.currentLab + '.md');
         fetch(labTextFile).then((response) => response.text()).then((text) => {
             this.setState({ labText: text })
@@ -41,7 +37,8 @@ class App extends Component {
 
 
     currentUpdate = (current) => {
-        this.childModels.moveCamera(...modelCords[current]);
+        modelCords[current] ? this.childModels.moveCamera(...modelCords[current]):  // проверка на наличие координат
+            this.childModels.moveCamera(2000, 2000, 2000);  // если координаты не заданы, поднять камеру на верх
 
         this.setState(state => ({
             currentLab: current + 1,
