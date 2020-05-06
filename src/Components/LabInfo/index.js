@@ -4,8 +4,16 @@ import ReactMarkdown from 'react-markdown/with-html';
 
 function LabInfo(props) {
 
-    return (
+    let fileForDownload;
+    if (props.Download) {
+      try {
+          fileForDownload = require("../../LabsForDownload/lab" + props.Lab + ".rar");
+      } catch {
+          console.error("Файл лабораторной работы не найден!");
+      }
+    }
 
+    return (
         <div className={"modal"}>
             <div id="style-2" className="modal-content container px-5">
                 <div className="row">
@@ -17,7 +25,10 @@ function LabInfo(props) {
                     <div className="col-12 markdown-body">
                         {props.Lab && <div className="text-center"><h1>Лабораторна работа № {props.Lab}</h1></div>}
                         {<ReactMarkdown source={props.Text} escapeHtml={false}/>}
-                        {props.Download && <div className="text-center"><button className="about-button">Скачати приклад</button></div>}
+                        {props.Download && <div className="text-center">
+                            <a href={fileForDownload} download={"lab" + props.Lab + ".rar"}>
+                                {fileForDownload && <button className="about-button">Скачати приклад</button>}
+                            </a></div>}
                     </div>
                 </div>
             </div>
