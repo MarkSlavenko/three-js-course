@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d5024666b1030393dba4d5c0c285544",
+    "revision": "b7ebed309eef6696e55e3c789912c7b1",
     "url": "/three-js-course/index.html"
   },
   {
-    "revision": "2ea802699ed410aeec99",
+    "revision": "24b2e97ea045d03533de",
     "url": "/three-js-course/static/css/2.a3eed1a2.chunk.css"
   },
   {
-    "revision": "9429d2b9f60695684e8f",
-    "url": "/three-js-course/static/css/main.e87bfd7b.chunk.css"
+    "revision": "7a4e18fc63f3df9d066f",
+    "url": "/three-js-course/static/css/main.ebe98e3b.chunk.css"
   },
   {
-    "revision": "2ea802699ed410aeec99",
-    "url": "/three-js-course/static/js/2.6936ad42.chunk.js"
+    "revision": "24b2e97ea045d03533de",
+    "url": "/three-js-course/static/js/2.7b9cef78.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/three-js-course/static/js/2.6936ad42.chunk.js.LICENSE.txt"
+    "url": "/three-js-course/static/js/2.7b9cef78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9429d2b9f60695684e8f",
-    "url": "/three-js-course/static/js/main.2d357d46.chunk.js"
+    "revision": "7a4e18fc63f3df9d066f",
+    "url": "/three-js-course/static/js/main.a966db30.chunk.js"
   },
   {
     "revision": "74555beb7f8de83457a5",
@@ -48,12 +48,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/three-js-course/static/media/lab2.1b66ccfd.md"
   },
   {
+    "revision": "79d71a323b09eb9eef3e72d8cfc5fced",
+    "url": "/three-js-course/static/media/lab2.79d71a32.rar"
+  },
+  {
     "revision": "f044305eb457efc9ff9a0847fd61cf74",
     "url": "/three-js-course/static/media/lab3.f044305e.md"
   },
   {
+    "revision": "f6a3596fe49dd64f4716d5381fab2788",
+    "url": "/three-js-course/static/media/lab3.f6a3596f.rar"
+  },
+  {
+    "revision": "0200b49facd11aa98f913239c47f9dfd",
+    "url": "/three-js-course/static/media/lab4.0200b49f.rar"
+  },
+  {
     "revision": "8820934b4b2b313ce6b2089620060455",
     "url": "/three-js-course/static/media/lab4.8820934b.md"
+  },
+  {
+    "revision": "aa72474fdb3a480d21da2fa47c66f6cc",
+    "url": "/three-js-course/static/media/lab5.aa72474f.rar"
   },
   {
     "revision": "cb4f7f720a041e4f0e0d86c7e42961b8",
