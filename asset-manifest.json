@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/three-js-course/static/css/main.e24fc430.chunk.css",
-    "main.js": "/three-js-course/static/js/main.1283a49d.chunk.js",
-    "main.js.map": "/three-js-course/static/js/main.1283a49d.chunk.js.map",
+    "main.css": "/three-js-course/static/css/main.e87bfd7b.chunk.css",
+    "main.js": "/three-js-course/static/js/main.2d357d46.chunk.js",
+    "main.js.map": "/three-js-course/static/js/main.2d357d46.chunk.js.map",
     "runtime-main.js": "/three-js-course/static/js/runtime-main.913c9d6d.js",
     "runtime-main.js.map": "/three-js-course/static/js/runtime-main.913c9d6d.js.map",
     "static/css/2.a3eed1a2.chunk.css": "/three-js-course/static/css/2.a3eed1a2.chunk.css",
-    "static/js/2.aa1cf108.chunk.js": "/three-js-course/static/js/2.aa1cf108.chunk.js",
-    "static/js/2.aa1cf108.chunk.js.map": "/three-js-course/static/js/2.aa1cf108.chunk.js.map",
+    "static/js/2.6936ad42.chunk.js": "/three-js-course/static/js/2.6936ad42.chunk.js",
+    "static/js/2.6936ad42.chunk.js.map": "/three-js-course/static/js/2.6936ad42.chunk.js.map",
     "index.html": "/three-js-course/index.html",
-    "precache-manifest.6f740d981d0c59cf81133d9d474488d0.js": "/three-js-course/precache-manifest.6f740d981d0c59cf81133d9d474488d0.js",
+    "precache-manifest.65541f5945d6ec27961be348a4d724a7.js": "/three-js-course/precache-manifest.65541f5945d6ec27961be348a4d724a7.js",
     "service-worker.js": "/three-js-course/service-worker.js",
     "static/css/2.a3eed1a2.chunk.css.map": "/three-js-course/static/css/2.a3eed1a2.chunk.css.map",
-    "static/css/main.e24fc430.chunk.css.map": "/three-js-course/static/css/main.e24fc430.chunk.css.map",
-    "static/js/2.aa1cf108.chunk.js.LICENSE.txt": "/three-js-course/static/js/2.aa1cf108.chunk.js.LICENSE.txt",
+    "static/css/main.e87bfd7b.chunk.css.map": "/three-js-course/static/css/main.e87bfd7b.chunk.css.map",
+    "static/js/2.6936ad42.chunk.js.LICENSE.txt": "/three-js-course/static/js/2.6936ad42.chunk.js.LICENSE.txt",
     "static/media/about.md": "/three-js-course/static/media/about.cb312001.md",
+    "static/media/lab1.rar": "/three-js-course/static/media/lab1.379bae11.rar",
     "static/media/lab1.md": "/three-js-course/static/media/lab1.d0b6350d.md",
     "static/media/lab10.md": "/three-js-course/static/media/lab10.a9c6b86f.md",
     "static/media/lab2.md": "/three-js-course/static/media/lab2.1b66ccfd.md",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.913c9d6d.js",
     "static/css/2.a3eed1a2.chunk.css",
-    "static/js/2.aa1cf108.chunk.js",
-    "static/css/main.e24fc430.chunk.css",
-    "static/js/main.1283a49d.chunk.js"
+    "static/js/2.6936ad42.chunk.js",
+    "static/css/main.e87bfd7b.chunk.css",
+    "static/js/main.2d357d46.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bff90f045a4e88c9d603bcc8292c01c",
+    "revision": "3d5024666b1030393dba4d5c0c285544",
     "url": "/three-js-course/index.html"
   },
   {
-    "revision": "f71f8f633fedf5bd5f90",
+    "revision": "2ea802699ed410aeec99",
     "url": "/three-js-course/static/css/2.a3eed1a2.chunk.css"
   },
   {
-    "revision": "2bea93feea74ca1c12c3",
-    "url": "/three-js-course/static/css/main.e24fc430.chunk.css"
+    "revision": "9429d2b9f60695684e8f",
+    "url": "/three-js-course/static/css/main.e87bfd7b.chunk.css"
   },
   {
-    "revision": "f71f8f633fedf5bd5f90",
-    "url": "/three-js-course/static/js/2.aa1cf108.chunk.js"
+    "revision": "2ea802699ed410aeec99",
+    "url": "/three-js-course/static/js/2.6936ad42.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/three-js-course/static/js/2.aa1cf108.chunk.js.LICENSE.txt"
+    "url": "/three-js-course/static/js/2.6936ad42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2bea93feea74ca1c12c3",
-    "url": "/three-js-course/static/js/main.1283a49d.chunk.js"
+    "revision": "9429d2b9f60695684e8f",
+    "url": "/three-js-course/static/js/main.2d357d46.chunk.js"
   },
   {
     "revision": "74555beb7f8de83457a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb3120015666006a083c3dc525ac5eca",
     "url": "/three-js-course/static/media/about.cb312001.md"
+  },
+  {
+    "revision": "379bae11eb5cf368b1d26c2ead30ac89",
+    "url": "/three-js-course/static/media/lab1.379bae11.rar"
   },
   {
     "revision": "d0b6350dfc062e50a06eddffadd44faa",
