@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './style.css';
 import * as THREE from "three";
-import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 
 import {cube} from '../../3dmodels/lab1';
 import {cube_second} from '../../3dmodels/lab2';
 import {snowman} from "../../3dmodels/lab3";
 import {bishop} from "../../3dmodels/lab4";
+import {figure, white_sphere} from "../../3dmodels/lab5";
 
-import {sphere} from "../../3dmodels/lab6";
+import {sphere} from "../../3dmodels/lab9";
 // import {NA} from "../../3dmodels/NA";
 
 class Models extends Component {
@@ -46,6 +46,9 @@ class Models extends Component {
         this.scene.add(cube_second);
         this.scene.add(snowman);
         this.scene.add(bishop);
+        this.scene.add(figure); this.scene.add(white_sphere);
+
+
 
         this.scene.add(sphere);
 
@@ -54,7 +57,6 @@ class Models extends Component {
     };
 
      animate = () => {
-
         requestAnimationFrame(this.animate);
         cube.rotation.x += 0.0075;
         cube.rotation.y += 0.0075;
@@ -63,6 +65,7 @@ class Models extends Component {
         snowman.rotation.y+=0.01;
         sphere.rotation.x += 0.0025;
         sphere.rotation.y += 0.0025;
+        figure.rotation.y += 0.0050;
         this.renderer.render(this.scene, this.camera);
     }
 
@@ -70,7 +73,7 @@ class Models extends Component {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    async moveCamera (x, y, z) {
+    async moveCamera (x, y, z) { // Smooth camera mooving
         const stepX = (x >= this.camera.position.x ? 1 : -1) * (Math.abs(x-this.camera.position.x) / 40);
         const stepY = (y >= this.camera.position.y ? 1 : -1) * Math.abs(y-this.camera.position.y) / 40;
         const stepZ = (z >= this.camera.position.z ? 1 : -1) * Math.abs(z-this.camera.position.z) / 40;

@@ -95,9 +95,9 @@ class App extends Component {
                 <Models ref={instance => { this.childModels = instance; }}/>
                 <div className="col-12 text-center fixed-bottom bottom-block">
                     <div className="col-12">
-                        {!this.state.labInfo ? <a onClick={()=>this.hideInfo("lab")} className="about-btn">Докладніше</a> : null}
+                        {!this.state.labInfo ? <a onClick={()=>this.hideInfo("lab")} className={"about-btn " + (this.state.currentLab === 5 ? "special" : "")}>Докладніше</a> : null}
                     </div>
-                    <div className="col-12 about-block">
+                    <div className={"col-12 about-block " + (this.state.currentLab === 5 ? "special" : "")}>
                         <a href="https://moodle.znu.edu.ua/" target="_blank">Moodle</a> ● Запорізький національний університет ● <a onClick={this.hideInfo}>Про курс</a>
                     </div>
                 </div>
@@ -117,9 +117,16 @@ class App extends Component {
         /> : null}
 
 
-
-        <button onClick={this.prevLab} disabled={this.state.disabled} className="prev btn"><i className="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i></button>
-      <button onClick={this.nextLab} disabled={this.state.disabled} className="next btn"><i className="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i></button>
+        <button onClick={this.prevLab}
+                disabled={this.state.disabled}
+                className={"prev btn " + (this.state.currentLab === 5 ? "special" : "")}>
+            <i className="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
+        </button>
+      <button onClick={this.nextLab}
+              disabled={this.state.disabled}
+              className={"next btn " + (this.state.currentLab === 5 ? "special" : "")}>
+          <i className="fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i>
+      </button>
     </div>
   )};
 }

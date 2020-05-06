@@ -6,12 +6,12 @@ function LabInfo(props) {
 
     let fileForDownload;
     if (props.Download) {
-      try {
-          fileForDownload = require("../../LabsForDownload/lab" + props.Lab + ".rar");
-      } catch {
-          console.error("Файл лабораторной работы не найден!");
-      }
-    }
+          try {
+              fileForDownload = require("../../LabsForDownload/lab" + props.Lab + ".rar");
+          } catch {
+              console.error("Файл лабораторної роботи № " + props.Lab + " відсутній!");
+          }
+        }
 
     return (
         <div className={"modal"}>

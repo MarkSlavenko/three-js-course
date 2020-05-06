@@ -28,10 +28,15 @@ th, th a {
   transition: background-color 0.3s ease;
 }
 
+.special.about-btn  {
+  background-color: #2d3436;
+}
+
 .about-btn:hover {
   background-color: white;
   color: black !important;
 }
+
 
 
 a:hover {
@@ -48,6 +53,10 @@ a:hover {
   border-radius: 0px;
   color: white;
   z-index: -1;
+}
+
+.prev.special, .next.special {
+  color: black;
 }
 
 button:active {
@@ -85,8 +94,16 @@ button:active {
   color: #ededed;
 }
 
+.about-block.special{
+  color: black;
+}
+
 .about-block a {
   color: #ededed;
+}
+
+.special.about-block a {
+  color: black;
   text-decoration: underline;
 }
 
