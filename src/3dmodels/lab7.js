@@ -24,7 +24,7 @@ CustomSinCurve.prototype.getPoint = function ( t ) {
 };
 
 const path = new CustomSinCurve(5);
-const geometry = new THREE.TubeGeometry( path,128, 3, 20, false );
+const geometry = new THREE.TubeGeometry( path,128, 2, 20, false );
 const material = new THREE.MeshPhongMaterial(
     { color: 0xFFF200,
         shininess:100,

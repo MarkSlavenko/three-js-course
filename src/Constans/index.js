@@ -11,6 +11,6 @@ const modelCords = [
     [2000, 2000, 2000]     // 10
 ];
 
-const numberOfLabs = 10;
+const numberOfLabs = 9;
 
 export {modelCords, numberOfLabs};
