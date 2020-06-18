@@ -7,10 +7,12 @@ import {cube_second} from '../../3dmodels/lab2';
 import {snowman} from "../../3dmodels/lab3";
 import {bishop} from "../../3dmodels/lab4";
 import {figure, white_sphere} from "../../3dmodels/lab5";
-
+import {cylinder} from "../../3dmodels/lab6";
+import {tube} from "../../3dmodels/lab7";
 
 import {sphere} from "../../3dmodels/lab9";
-import {cylinder} from "../../3dmodels/lab6";
+import {square} from "../../3dmodels/lab8";
+
 // import {NA} from "../../3dmodels/NA";
 
 class Models extends Component {
@@ -37,7 +39,7 @@ class Models extends Component {
 
         this.scene = new THREE.Scene();
 
-        this.camera = new THREE.PerspectiveCamera(70, WIDTH/HEIGHT);
+        this.camera = new THREE.PerspectiveCamera(70, WIDTH/HEIGHT, 1, 1500);
         this.camera.position.z = 350;
         this.scene.add(this.camera);
         const ambientLight = new THREE.AmbientLight(0xffffff, 1.0);
@@ -51,6 +53,8 @@ class Models extends Component {
         this.scene.add(bishop);
         this.scene.add(figure); this.scene.add(white_sphere);
         this.scene.add(cylinder);
+        this.scene.add(tube);
+        this.scene.add(square);
 
 
 
@@ -67,9 +71,11 @@ class Models extends Component {
         cube_second.rotation.x += 0.0075;
         cube_second.rotation.y += 0.0075;
         snowman.rotation.y+=0.01;
-        sphere.rotation.x += 0.0025;
         sphere.rotation.y += 0.0025;
         figure.rotation.y += 0.0050;
+        tube.rotation.z += 0.0075;
+        square.rotation.x += 0.0075;
+        square.rotation.y += 0.0075;
         this.renderer.render(this.scene, this.camera);
     };
 

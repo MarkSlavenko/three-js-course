@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d071eb0-1343-4bcb-ab48-eeb1ab822139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/3dmodels/lab8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/3dmodels/lab5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/3dmodels/lab5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Constans/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constans/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab6.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/lab9.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/lab9.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,27 +20,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -55,20 +28,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/3dmodels/lab6.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="232">
+              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/3dmodels/lab5.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3dmodels/lab8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/3dmodels/lab9.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -160,10 +154,13 @@
         <option value="$PROJECT_DIR$/src/Labs/lab9.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab2.md" />
         <option value="$PROJECT_DIR$/src/Labs/lab6.md" />
-        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
-        <option value="$PROJECT_DIR$/src/Constans/index.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab6.js" />
         <option value="$PROJECT_DIR$/src/3dmodels/lab5.js" />
+        <option value="$PROJECT_DIR$/src/3dmodels/images/lab7.js" />
+        <option value="$PROJECT_DIR$/src/3dmodels/lab7.js" />
+        <option value="$PROJECT_DIR$/src/Constans/index.js" />
+        <option value="$PROJECT_DIR$/src/3dmodels/lab8.js" />
+        <option value="$PROJECT_DIR$/src/Components/Models/index.js" />
       </list>
     </option>
   </component>
@@ -245,16 +242,16 @@
     <property name="ts.external.directory.path" value="D:\WebStorm\WebStorm 2018.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
-      <recent name="D:\Учеба\Дипломная Реакт\course\src\Labs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
+      <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels\images" />
       <recent name="D:\Учеба\Дипломная Реакт\course\src\LabsForDownload" />
       <recent name="D:\Учеба\Дипломная Реакт\course\src" />
       <recent name="D:\Учеба\Дипломная Реакт\course\src\Components\LabInfo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Учеба\Дипломная Реакт\course\src\3dmodels" />
-      <recent name="D:\Учеба\Дипломная Реакт\course\public" />
+      <recent name="D:\Учеба\Дипломная Реакт\course\src\Labs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,12 +306,12 @@
       <workItem from="1590059127718" duration="4094000" />
       <workItem from="1590242874145" duration="6931000" />
       <workItem from="1590334269152" duration="316000" />
-      <workItem from="1592479041717" duration="2668000" />
+      <workItem from="1592479041717" duration="7354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142815000" />
+    <option name="totallyTimeSpent" value="147501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -639,27 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab9.js">
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -672,15 +652,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/3dmodels/lab6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab5.js">
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="282">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Constans/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/3dmodels/lab8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
