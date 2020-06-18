@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7ebed309eef6696e55e3c789912c7b1",
+    "revision": "dc1155f96671b6ecf095c645556abd1b",
     "url": "/three-js-course/index.html"
   },
   {
-    "revision": "24b2e97ea045d03533de",
+    "revision": "d054d4637e28bc7bbbcf",
     "url": "/three-js-course/static/css/2.a3eed1a2.chunk.css"
   },
   {
-    "revision": "7a4e18fc63f3df9d066f",
-    "url": "/three-js-course/static/css/main.ebe98e3b.chunk.css"
+    "revision": "23fbd8707cec15744382",
+    "url": "/three-js-course/static/css/main.a3418d5c.chunk.css"
   },
   {
-    "revision": "24b2e97ea045d03533de",
-    "url": "/three-js-course/static/js/2.7b9cef78.chunk.js"
+    "revision": "d054d4637e28bc7bbbcf",
+    "url": "/three-js-course/static/js/2.b8275883.chunk.js"
   },
   {
     "revision": "8ebb70227fec3b61ad3af3d99ebe8940",
-    "url": "/three-js-course/static/js/2.7b9cef78.chunk.js.LICENSE.txt"
+    "url": "/three-js-course/static/js/2.b8275883.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a4e18fc63f3df9d066f",
-    "url": "/three-js-course/static/js/main.a966db30.chunk.js"
+    "revision": "23fbd8707cec15744382",
+    "url": "/three-js-course/static/js/main.b94db856.chunk.js"
   },
   {
     "revision": "74555beb7f8de83457a5",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/three-js-course/static/media/lab10.a9c6b86f.md"
   },
   {
-    "revision": "1b66ccfd869c44fa71ed1277bc91ecd9",
-    "url": "/three-js-course/static/media/lab2.1b66ccfd.md"
-  },
-  {
     "revision": "79d71a323b09eb9eef3e72d8cfc5fced",
     "url": "/three-js-course/static/media/lab2.79d71a32.rar"
+  },
+  {
+    "revision": "dd3b542fe137ea5044ef2164925afd6c",
+    "url": "/three-js-course/static/media/lab2.dd3b542f.md"
   },
   {
     "revision": "f044305eb457efc9ff9a0847fd61cf74",
@@ -76,20 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/three-js-course/static/media/lab5.cb4f7f72.md"
   },
   {
+    "revision": "937b55f8bf43ffc56f059f4784e34b9d",
+    "url": "/three-js-course/static/media/lab6.937b55f8.md"
+  },
+  {
+    "revision": "e4f2dc37ea924aa3bb6cd2d11e08f66e",
+    "url": "/three-js-course/static/media/lab7.e4f2dc37.md"
+  },
+  {
+    "revision": "11ec6d8b4498045a2d4b677d4d446103",
+    "url": "/three-js-course/static/media/lab8.11ec6d8b.md"
+  },
+  {
     "revision": "63a995fea3ac3d024bfb222b643eebbe",
-    "url": "/three-js-course/static/media/lab6.63a995fe.md"
-  },
-  {
-    "revision": "7eb51da67e20246e46ec4be5708a0f86",
-    "url": "/three-js-course/static/media/lab7.7eb51da6.md"
-  },
-  {
-    "revision": "f6077a9c75f6e19aa75503fa4209cc51",
-    "url": "/three-js-course/static/media/lab8.f6077a9c.md"
-  },
-  {
-    "revision": "e92a4cac7cb4001d071a948ac04bf013",
-    "url": "/three-js-course/static/media/lab9.e92a4cac.md"
+    "url": "/three-js-course/static/media/lab9.63a995fe.md"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",

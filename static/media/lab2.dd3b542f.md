@@ -1,4 +1,4 @@
-<h1 align="center">Седьмая тема</h1>
+<h1 align="center">Робота з текстурами</h1>
 Changes are automatically rendered as you type.
 
 ## Table of Contents
