@@ -25,7 +25,7 @@ figure.position.z = -810;
 
 
 // Sphere for background
-const sphere_geometry = new THREE.SphereGeometry(160, 30, 30);
+const sphere_geometry = new THREE.SphereGeometry(160, 25, 25);
 const sphere_material = new THREE.MeshBasicMaterial ({color: 0xFFFFFF});
 sphere_geometry.scale( - 1, 1, 1 );
 

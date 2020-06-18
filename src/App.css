@@ -92,6 +92,7 @@ button:active {
 
 .about-block {
   color: #ededed;
+  transition: color 0.3s ease;
 }
 
 .about-block.special{
@@ -100,6 +101,8 @@ button:active {
 
 .about-block a {
   color: #ededed;
+  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 .special.about-block a {

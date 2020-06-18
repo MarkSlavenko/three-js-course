@@ -8,7 +8,9 @@ import {snowman} from "../../3dmodels/lab3";
 import {bishop} from "../../3dmodels/lab4";
 import {figure, white_sphere} from "../../3dmodels/lab5";
 
+
 import {sphere} from "../../3dmodels/lab9";
+import {cylinder} from "../../3dmodels/lab6";
 // import {NA} from "../../3dmodels/NA";
 
 class Models extends Component {
@@ -31,6 +33,7 @@ class Models extends Component {
         this.renderer.setSize(WIDTH, HEIGHT);
         this.renderer.setClearColor(0x2d3436, 0);
         this.refForThreeJS.appendChild( this.renderer.domElement );
+        //refForThreeJS - посилання на потрібний нам div, для відображення
 
         this.scene = new THREE.Scene();
 
@@ -47,6 +50,7 @@ class Models extends Component {
         this.scene.add(snowman);
         this.scene.add(bishop);
         this.scene.add(figure); this.scene.add(white_sphere);
+        this.scene.add(cylinder);
 
 
 
@@ -67,13 +71,13 @@ class Models extends Component {
         sphere.rotation.y += 0.0025;
         figure.rotation.y += 0.0050;
         this.renderer.render(this.scene, this.camera);
-    }
+    };
 
     timeout = (ms) => {
         return new Promise(resolve => setTimeout(resolve, ms));
-    }
+    };
 
-    async moveCamera (x, y, z) { // Smooth camera mooving
+    async moveCamera (x, y, z) {
         const stepX = (x >= this.camera.position.x ? 1 : -1) * (Math.abs(x-this.camera.position.x) / 40);
         const stepY = (y >= this.camera.position.y ? 1 : -1) * Math.abs(y-this.camera.position.y) / 40;
         const stepZ = (z >= this.camera.position.z ? 1 : -1) * Math.abs(z-this.camera.position.z) / 40;

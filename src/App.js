@@ -19,7 +19,7 @@ class App extends Component {
 
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.currentLabTextUpdate();
 
         let req =  require('./Labs/about.md');
@@ -40,7 +40,7 @@ class App extends Component {
         }
     };
 
-    currentLabTextUpdate = (about) => {  // Получение данных об лабораторной работе.
+    currentLabTextUpdate = () => {  // Получение данных об лабораторной работе.
         let labTextFile =  require('./Labs/lab' + this.state.currentLab + '.md');
         fetch(labTextFile).then((response) => response.text()).then((text) => {
             this.setState({ labText: text })
@@ -52,18 +52,16 @@ class App extends Component {
         modelCords[current] ? this.childModels.moveCamera(...modelCords[current]):  // проверка на наличие координат
             this.childModels.moveCamera(2000, 2000, 2000);  // если координаты не заданы, поднять камеру на верх
 
-        this.setState(state => ({
+        this.setState({
             currentLab: current + 1,
-        }));
-
-        setTimeout(() => this.currentLabTextUpdate(), 500);
+        }, () => this.currentLabTextUpdate());
     };
 
     nextLab = () => {
         this.child.next();
-        this.setState(state => ({
+        this.setState({
             disabled: true
-        }));
+        });
 
         setTimeout(() => {  this.setState(state => ({
             disabled: false,
@@ -72,9 +70,9 @@ class App extends Component {
 
     prevLab = () => {
         this.child.previous();
-        this.setState(state => ({
+        this.setState({
             disabled: true,
-        }));
+        });
 
         setTimeout(() => {  this.setState(state => ({
             disabled: false,
